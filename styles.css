@@ -64,7 +64,22 @@ code {
     margin-left: 60px;
 }
 @media screen and (max-width: 600px) {
-    #navbar {
+    nav {
       visibility: hidden;
+      position: static;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    main {
+        float: left;
+        margin-left: 20px;
+    }
+    #hnav {
+        display: flex;
+        visibility: visible;
+        position: static;
+        font-size: 40px;
+        justify-content: center;
     }
   }
