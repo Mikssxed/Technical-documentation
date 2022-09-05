@@ -63,3 +63,8 @@ code {
     list-style-type: circle;
     margin-left: 60px;
 }
+@media screen and (max-width: 600px) {
+    #navbar {
+      visibility: hidden;
+    }
+  }
